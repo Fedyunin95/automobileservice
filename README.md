@@ -30,7 +30,7 @@
 
 ```bash
 git clone https://github.com/Fedyunin95/automobileservice.git
-cd car-app
+cd automobileservice
 ```
 
 ### 2. Установака зависимостей
