@@ -1,0 +1,81 @@
+.carsList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  .title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .cars {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .filters {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .input {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+
+      label {
+        font-size: 16px;
+      }
+
+      select {
+        padding: 4px 8px;
+        font-size: 18px;
+        font-weight: normal;
+        background-color: #ececec;
+        border: none;
+        border-radius: 12px;
+      }
+    }
+  }
+}
+
+.card {
+  cursor: pointer;
+  width: 24%;
+  min-width: 300px;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #efefef;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  .image {
+    width: 100%;
+    height: 150px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+
+    .text {
+      font-size: 16px;
+      line-height: 24px;
+
+      .value {
+        font-weight: bold;
+      }
+    }
+  }
+}
